@@ -34,7 +34,7 @@ app.get('/todo', function (req,res) {
   });
 });
 
-app.get('/', function (req,res) {
+app.get('/beta', function (req,res) {
     res.render('index'); /*todo*/
   });
 
